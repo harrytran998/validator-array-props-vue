@@ -1,5 +1,0 @@
-#!/bin/bash -e
-
-echo 'Star linting files name...'
-yarn lint:files
-echo 'Linting files name done!'

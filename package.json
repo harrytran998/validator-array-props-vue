@@ -12,6 +12,10 @@
     "preinstall": "node ./scripts/checkYarn.js",
     "lint:files": "ls-lint"
   },
+  "dependencies": {
+    "vite-plugin-components": "^0.6.6",
+    "vue": "^3.0.5"
+  },
   "devDependencies": {
     "@ls-lint/ls-lint": "^1.9.2",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
@@ -46,10 +50,5 @@
       "type": "patreon",
       "url": "https://www.patreon.com/harrytran998"
     }
-  ],
-  "dependencies": {
-    "@vueuse/core": "^4.1.0",
-    "vite-plugin-components": "^0.6.6",
-    "vue": "^3.0.5"
-  }
+  ]
 }

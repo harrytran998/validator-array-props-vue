@@ -62,7 +62,5 @@
   "git.ignoreLimitWarning": true,
   "git.allowNoVerifyCommit": false,
   "git.confirmForcePush": true,
-  "cSpell.words": [
-    "Infor"
-  ]
+  "cSpell.words": ["Infor"]
 }

@@ -1,0 +1,68 @@
+{
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.quickSuggestionsDelay": 0,
+  // Integrate with windowns user
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // ===
+  // Files
+  // ===
+
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "dist": true,
+    "coverage": true,
+    "libs": true // Hide libs folder in VsCode
+  },
+
+  "search.exclude": {
+    "**/dist": true,
+    "**/.nuxt": true,
+    "**/coverge": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true,
+    "libs": true
+  },
+
+  // ===
+  // Event Triggers
+  // ===
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".ts"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "vue-html",
+    "html"
+  ],
+
+  // Disable when validator when working with tailwindcss
+  "scss.validate": false,
+  "css.validate": false,
+  // Git
+  "git.ignoreLimitWarning": true,
+  "git.allowNoVerifyCommit": false,
+  "git.confirmForcePush": true,
+  "cSpell.words": [
+    "Infor"
+  ]
+}

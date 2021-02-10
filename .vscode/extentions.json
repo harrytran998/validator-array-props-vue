@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-less",
+    "antfu.i18n-ally",
+    "Orta.vscode-jest",
+    "antfu.iconify",
+    "mikestead.dotenv",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+    "usernamehw.errorlens",
+    "alexkrechik.cucumberautocomplete",
+    "wmaurer.change-case"
+  ]
+}
